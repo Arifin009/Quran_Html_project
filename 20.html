@@ -1757,8 +1757,7 @@
             // Add 1 to index since index starts from 0 but you want numbers to start from 1
             const number = index + 1;
             // Add the number before the existing content using insertAdjacentHTML
-            div.insertAdjacentHTML('afterbegin', `ber}
-            `);
+            div.insertAdjacentHTML('afterbegin', `<span>${number}</span>`);
         });
     </script>
 </body>
